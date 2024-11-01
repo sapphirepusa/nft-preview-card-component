@@ -1,0 +1,30 @@
+*{
+    max-width: 100vw;
+    max-height: 100dvh;
+}
+body {
+    background-color: hsl(217, 54%, 11%);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+}
+
+
+.main-container { 
+    width: 100%;
+    height: 90rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+    inset: 0;
+}
+
+
+.sub-container {
+    width: 20rem;
+    height: 20rem;
+    background-color: azure;
+}
